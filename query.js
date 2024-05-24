@@ -56,7 +56,7 @@ async function main() {
         await detailFlight()
         await createFlight()
         await updateFlight()
-        await deleteFlight
+        await deleteFlight()
     } catch (error) {
         console.log(error)
     } finally {
